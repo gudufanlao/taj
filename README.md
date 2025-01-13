@@ -6,6 +6,8 @@
 
 `gradio_web_demo.py` 文件为推理文件，里面进行了 prompt 优化，为用户的输入进行优化。
 
+`train_cogvideox_lora.py` 文件为 diffusers 框架下的微调文件，微调所需显存为 60 多 G。
+
 指令微调 demo 如下：
 
 ```json
